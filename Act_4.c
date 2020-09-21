@@ -32,6 +32,7 @@ int main() {
 		printf("1) Capturar enteros\n");
 		printf("2) Mostrar cadena n veces\n");
 		printf("3) Agregar personaje\n");
+		printf("4) Mostrar personajes\n");
 		printf("0) Salir\n");
 		scanf("%c",&opc);
 		switch(opc) {
@@ -50,6 +51,7 @@ int main() {
 				capturar_personajes();
 				break;
 			case '4':
+				mostrar_personajes();
 			case '0':
 				default:
 				break;
